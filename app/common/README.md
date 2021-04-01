@@ -1,0 +1,1 @@
+This folder will contain the templates of navbar and another similar things
