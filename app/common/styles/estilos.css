@@ -106,6 +106,26 @@ body {
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.311);
 }
 
+#menuGoal4 { 
+    background-image: url("../images/form.png"); 
+    background-position: 30%;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.116);
+}
+
+#menuGoal4:hover  {
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.311);
+}
+
+#menuGoal5 { 
+    background-image: url("../images/form.png"); 
+    background-position: 30%;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.116);
+}
+
+#menuGoal5:hover  {
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.311);
+}
+
 #menu a {
     display: block;
     background-size: 32px 32px;
@@ -179,6 +199,19 @@ a:hover {
     box-shadow: 4px 4px 3px 1px rgba(0, 0, 0, 0.267);
 }
 
+.image-left {
+    float: left;
+    margin-right: 1.5%;
+    border-left: 12px solid rgba(255, 255, 255, 0.486);
+    border-radius: 6px;
+    box-shadow: 4px 4px 3px 1px rgba(0, 0, 0, 0.267);
+}
+
+.text-right {
+    text-align: right;
+    display: contents;
+}
+
 hr {
     border: 2px solid rgba(219, 219, 219, 0.973);
     border-radius: 2px;
@@ -206,4 +239,27 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-corner {
     display: none;
+}
+
+#menu li a {
+    padding: 15px;
+}
+
+
+
+@media screen and (min-width: 1110px) {
+
+    article img {
+        max-width: 40%;
+    }
+    
+}
+
+@media screen and (max-width: 1110px) {
+
+    article img {
+        max-width: 80%;
+        display: block;
+    }
+    
 }
