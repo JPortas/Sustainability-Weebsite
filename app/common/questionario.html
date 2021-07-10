@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="utf-8">
+    <title>Sustentabilidade</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/estilos.css">
+    <title>Sustentabilidade - Início</title>
+</head>
+
+<body>
+    <nav>
+        <div class="drop-menu">
+            <label class="drop-menu-button" for="drop-menu-checkbox">Centro de Sustentabilidade Ambiental</label>
+        </div>
+        <input type="checkbox" id="drop-menu-checkbox">
+        <ul id="menu">
+            <li class="menuselected"><a id="menuHome" href="index.html">Página inicial</a></li>
+            <li><a id="pilares" href="pilares.html">Pilares</a></li>
+            <li><a id="menuGoal2" href="campus.html">Campus</a></li>
+            <li><a id="menuGoal3" href="projectos.html">Projectos</a></li>
+            <li><a id="menuGoal4" href="questionario.html">Questionário</a></li>
+        </ul>
+    </nav>
+    <article id="info">
+        <h2>A sua opinião</h2>
+        <hr>
+        <!--<img src="images/sustentabilidade.jpg" id="image-right" alt="Imagem sustentabilidade">-->
+        <p>Tem alguma opinão que nos queira contar e que possa contribuir para um mundo mais sustentável? Conte-nos a sua ideia.</p>
+        <section id="form">
+            <form id="data-form" onsubmit="event.preventDefault(); myFunction();">
+                <label>Nome</label>
+                <input id="name" type="text"></input>
+                <label>Data Nascimento</label>
+                <input id="birthday" type="date"></input>
+                <label>Sexo</label>
+                <select id="gender" name="gender">
+                    <option disabled selected value></option>
+                    <option value="m">Masculino</option>
+                    <option value="f">Femenino</option>
+                </select>
+                <label>Comentário*</label>
+                <textarea id="opinion" name="opinion" rows="10" cols="50" required></textarea>
+                <span class="form-subtitle">Apenas os campos com * são obrigatórios. Campos como o do sexo e data de nascimento serão anónimos e apenas utilizados para fins estatísticos.</span><br>
+                <div id="form-buttons">
+                    <input id="button1" type="submit" value="Submeter"></input>
+                    <input type="reset" value="Repor"></input>
+                </div>
+            </form>
+        </section>
+        <br>
+        <section id="comentarios">
+            <h2>Comentários</h2>
+            <div id="commentarys-zone">
+                <div class="commentary-box">
+                    <h3>Author</h3>
+                    <hr>
+                    <p class="commentary-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error rem odio eos ratione alias dignissimos enim omnis totam eveniet, animi soluta accusamus natus ad architecto aliquam, atque explicabo cum? Fugiat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus repellat ipsum quia doloribus pariatur dolorum aut neque maxime sunt ex, molestiae, illo explicabo dignissimos et? Error deserunt quo corporis porro. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo cumque voluptatem ducimus consectetur tenetur reiciendis eveniet provident consequuntur at modi. Culpa soluta aliquam et voluptatem odio numquam. Quaerat, ipsa quidem!</p>
+                </div>
+                <div class="commentary-box">
+                    <h3>Author</h3>
+                    <hr>
+                    <p class="commentary-text">Message of the author</p>
+                </div>
+            </div>
+        </section>
+    </article>
+    <footer>
+        <img src="images/background.png" id="background" alt="Bob">
+    </footer>
+
+    <script src="../js/commentarys.js"></script>
+</body>
+</html>

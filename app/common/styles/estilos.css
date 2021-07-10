@@ -260,6 +260,94 @@ body::-webkit-scrollbar-corner {
     article img {
         max-width: 80%;
         display: block;
+        float: none!important;
     }
     
+}
+
+.form-subtitle {
+    font-size: 12px;
+}
+
+form input:not([type='submit']):not([type='reset']) {
+    width: 100%;
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+form input[type='submit'], form input[type='reset'] {
+    height: 25px;
+    margin-top: 10px;
+}
+
+form select {
+    margin-bottom: 10px;
+}
+
+form select {
+    /*height: 20px;*/
+    /*line-height:20px;*/
+    padding: 5px;
+}
+
+@media screen and (min-width: 720px) {
+
+    form {
+        width: 45%;
+    }
+    
+}
+
+@media screen and (max-width: 720px) {
+
+    form {
+        width: 100%;
+    }
+    
+}
+
+.commentary-box {
+    width: 100%;
+    height: auto;
+    background-color: brown;
+    padding: 5px 10px 5px 10px;
+    box-sizing:content-box;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    
+}
+
+.commentary-text {
+    font-size: 12px;
+    font-weight: initial;
+    white-space: pre-wrap;
+}
+
+.commentary-box hr {
+    width: 35%;
+    margin-left: 0;
+    border: 1px solid;
+    box-shadow: none;
+    margin: 0;
+}
+
+form {
+    border:1px solid rgb(18, 65, 32);
+    padding: 15px;
+    border-radius: 15px;
+    /*margin: 0 auto;*/
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+#form, #form-buttons {
+    justify-content: center;
+    display: flex;
+}
+
+#form-buttons {
+    flex-direction: row;
+    justify-content: space-evenly;
 }
