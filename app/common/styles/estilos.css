@@ -6,9 +6,9 @@ html, html a{
 body {
     font-size: large;
     font-family: Arial, Helvetica, sans-serif;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.311);
-    background-color:rgba(43, 43, 43, 0.938);
-    color: rgba(219, 219, 219, 0.973);
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.2);
+    background-color:rgba(17, 17, 17, 0.938);
+    color: #161d17;
     background-image: url(/images/background_pattern.png);
     background-blend-mode: color-burn;
     margin: 0;
@@ -47,13 +47,35 @@ body {
 }
 
 #info {
-    font-size: large;
+    font-size: 18px;
     font-weight: bold;
-    margin: 100px 10px 10px 10px;
-    padding: 60px;
+    margin: 10px 0px 10px 0px;
+    padding: 35px;
     background-color:  rgb(62, 139, 85);
-    border-radius: 45px;
-    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.452);
+    border-radius: 2px;
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.752);
+}
+
+#info>p:hover, #info li:hover {
+    color: white;
+    transition: 0.3s;
+}
+
+#info a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.486);
+}
+
+#info a:hover {
+    text-decoration: none;
+    color: rgba(24, 24, 24, 1);
+    transition: 0.3s;
+}
+
+h2 {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
 }
 
 #menu {
@@ -63,67 +85,88 @@ body {
     margin: 0px;
     padding: 0px;
     width: 100%;
-    background-color: rgba(212, 212, 212, 0.979);
+    background-color: rgb(255, 255, 255);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 #menuHome { 
     background-image: url("../images/sustentavel.png");
-    background-position: 30%;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.116);
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.03);
+    background-position: 25%;
 }
 
 #menuHome:hover  {
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.311);
+    text-shadow: 1px 1px 1px rgba(63, 63, 63, 0.311);
+    color: rgb(0, 0, 0);
+    background-color: rgb(52, 121, 73);
+    transition: 0.3s;
 }
 
 #pilares { 
     background-image: url("../images/pilares.png"); 
-    background-position: 30%;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.116);
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.03);
+    background-position: 25%;
 }
 
 #pilares:hover  {
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.311);
+    text-shadow: 1px 1px 1px rgba(63, 63, 63, 0.311);
+    color: rgb(0, 0, 0);
+    background-color: rgb(52, 121, 73);
+    transition: 0.3s;
 }
 
 #menuGoal2 { 
     background-image: url("../images/campus.png"); 
-    background-position: 30%;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.116);
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.03);
+    background-position: 25%;
 }
 
 #menuGoal2:hover  {
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.311);
+    text-shadow: 1px 1px 1px rgba(63, 63, 63, 0.311);
+    color: rgb(0, 0, 0);
+    background-color: rgb(52, 121, 73);
+    transition: 0.3s;
 }
 
 #menuGoal3 { 
     background-image: url("../images/projectos.png"); 
-    background-position: 30%;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.116);
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.03);
+    background-position: 25%;
 }
 
 #menuGoal3:hover  {
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.311);
+    text-shadow: 1px 1px 1px rgba(63, 63, 63, 0.311);
+    color: rgb(0, 0, 0);
+    background-color: rgb(52, 121, 73);
+    transition: 0.3s;
 }
 
 #menuGoal4 { 
     background-image: url("../images/form.png"); 
-    background-position: 30%;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.116);
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.03);
+    background-position: 25%;
 }
 
 #menuGoal4:hover  {
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.311);
+    text-shadow: 1px 1px 1px rgba(63, 63, 63, 0.311);
+    color: rgb(0, 0, 0);
+    background-color: rgb(52, 121, 73);
+    border-bottom-left-radius: 9px;
+    transition: 0.3s;
 }
 
 #menuGoal5 { 
     background-image: url("../images/form.png"); 
-    background-position: 30%;
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.116);
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.03);
+    background-position: 25%;
 }
 
 #menuGoal5:hover  {
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.311);
+    text-shadow: 1px 1px 1px rgba(63, 63, 63, 0.311);
+    color: rgb(0, 0, 0);
+    background-color: rgb(52, 121, 73);
+    transition: 0.3s;
 }
 
 #menu a {
@@ -141,7 +184,8 @@ a:hover {
 }
 
 .drop-menu-button:hover {
-    text-shadow: 2px 2px 2px rgba(0, 255, 21, 0.644);
+    text-shadow: 2px 2px 2px rgba(32, 32, 32, 0.5);
+    transition: 0.3s;
 }
 
 #drop-menu-checkbox { 
@@ -156,15 +200,16 @@ a:hover {
     text-align: left;
     font-size: 20px;
     font-weight: bold;
-    border-bottom: 3px solid rgba(0, 0, 0, 0.671);
     box-shadow: 0px 0px 15px 4px rgba(6, 139, 39, 0.11);
     padding: 5px;
 }
 
 .drop-menu-button {
     display: inline-block;
+    text-align: center;
     padding: 0px 15px 10px 15px;
-    background-color: rgb(62, 139, 85);
+    border-radius: 10px;
+    color: white;
     cursor: pointer;
 }
 
@@ -183,7 +228,6 @@ a:hover {
     font-weight: bold;
     font-size: large;
     text-shadow: none;
-    border-bottom: 3px solid rgb(0, 0, 0);
 }
 
 #background {
@@ -197,6 +241,11 @@ a:hover {
     border-left: 12px solid rgba(255, 255, 255, 0.486);
     border-radius: 6px;
     box-shadow: 4px 4px 3px 1px rgba(0, 0, 0, 0.267);
+}
+
+#image-right:hover {
+    border-left: 12px solid rgb(255, 255, 255);
+    transition: 0.3s;
 }
 
 .image-left {
@@ -213,9 +262,11 @@ a:hover {
 }
 
 hr {
-    border: 2px solid rgba(219, 219, 219, 0.973);
-    border-radius: 2px;
-    box-shadow: 3px 3px 8px 1px rgba(0, 0, 0, 0.452);
+    border: 3px solid rgba(219, 219, 219, 0.973);
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.35);
+    margin: 0px 0px 20px 0px;
 }
 
 /* Outros */
@@ -309,7 +360,7 @@ form select {
 .commentary-box {
     width: 100%;
     height: auto;
-    background-color: brown;
+    background-color: rgb(255, 255, 255);
     padding: 5px 10px 5px 10px;
     box-sizing:content-box;
     margin-bottom: 10px;
@@ -350,4 +401,17 @@ form {
 #form-buttons {
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+.bob {
+    height: 110px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+#video {
+    border-radius: 10px;
+    border: 3px solid white;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.342);
 }
